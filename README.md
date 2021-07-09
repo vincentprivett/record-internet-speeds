@@ -1,4 +1,9 @@
-Run speedtest-ci and saves results to a CSV file for review.  This can also be scheduled via a CRON job.
+Run speedtest-ci and saves results to a CSV file for review.  This can also be scheduled via a CRON job with;
+
+0 2-6/2 * * * /home/XXX/record_internet_speeds/script.py
+
+to run (at 0200, 0400 & 0600) and save the results to internet_speeds_dataset.csv within record_internet_speeds folder.
+
 
 CSV Example;
 
